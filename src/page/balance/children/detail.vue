@@ -23,12 +23,14 @@
     export default {
       data(){
             return{
-               
             }
         },
         components: {
             headTop,
         },
+        created () {
+            console.log('test')
+        }
     }
 </script>
   
